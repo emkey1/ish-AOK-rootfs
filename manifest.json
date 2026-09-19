@@ -85,7 +85,7 @@
     "initialWindow": "session-shell",
     "guestABI": "arm64",
     "downloadURL": "https://raw.githubusercontent.com/emkey1/ish-AOK-rootfs/main/archives/pscal-rootfs-2026.09.19-aarch64.tar.xz",
-    "downloadSize": "~8 MB",
+    "downloadSize": "~9 MB",
     "family": "pscal20260919",
     "familyDisplayName": "PSCAL + SmallCLUE 2026.09.19",
     "series": "pscal",
