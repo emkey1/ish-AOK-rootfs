@@ -78,18 +78,18 @@
     "tier": "official"
   },
   {
-    "identifier": "pscal20260919aarch64",
-    "displayName": "PSCAL + SmallCLUE 2026.09.19 (arm64)",
-    "archiveName": "pscal-rootfs-2026.09.19-aarch64",
-    "importName": "PSCAL-2026.09.19-arm64",
+    "identifier": "pscal2026091901aarch64",
+    "displayName": "PSCAL + SmallCLUE 2026.09.19.1 (arm64)",
+    "archiveName": "pscal-rootfs-2026.09.19.1-aarch64",
+    "importName": "PSCAL-2026.09.19.1-arm64",
     "initialWindow": "session-shell",
     "guestABI": "arm64",
-    "downloadURL": "https://raw.githubusercontent.com/emkey1/ish-AOK-rootfs/main/archives/pscal-rootfs-2026.09.19-aarch64.tar.xz",
-    "downloadSize": "~9 MB",
-    "family": "pscal20260919",
-    "familyDisplayName": "PSCAL + SmallCLUE 2026.09.19",
+    "downloadURL": "https://raw.githubusercontent.com/emkey1/ish-AOK-rootfs/main/archives/pscal-rootfs-2026.09.19.1-aarch64.tar.xz",
+    "downloadSize": "~10 MB",
+    "family": "pscal2026091901",
+    "familyDisplayName": "PSCAL + SmallCLUE 2026.09.19.1",
     "series": "pscal",
-    "version": "2026.09.19",
+    "version": "2026.09.19.1",
     "tier": "community"
   },
   {
