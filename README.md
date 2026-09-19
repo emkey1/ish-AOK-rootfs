@@ -55,6 +55,30 @@ A JSON array of objects. All fields are required strings unless noted.
 | `family` | Groups architecture variants of the same distro/release into one picker row (e.g. all three Alpine 3.23.3 entries share `"alpine3233"`). Use a new family value per distro *and* per release/version you want listed separately. |
 | `familyDisplayName` | Shown for the grouped row; architecture is chosen as a sub-choice. |
 | `tier` | `"official"` or `"community"`. New PRs should use `"community"`. |
+| `series` | *Optional.* Stable id for a line of images republished over time from the same source (e.g. `"pscal"`). Requires `version`. |
+| `version` | *Optional.* This build's version within its `series`, e.g. `"2026.09.19"`. Requires `series`. |
 
 Keep `identifier`/`archiveName`/`importName` free of ambiguity with existing
 entries in this file — the app dedupes by `identifier`.
+
+## Versioned images (`series` / `version`)
+
+Most entries here are a distribution's own release and are replaced wholesale
+when that release changes. Some images are built by this project instead, from
+sources that keep moving — the PSCAL + SmallCLUE rootfs is the first — so a new
+build is published every so often with the same contents but newer code.
+
+Those entries carry a `series` (which line of images this is) and a `version`
+(which build). Every version ever published stays listed here: this file is the
+record of what exists, and the archives stay downloadable. iSH-AOK offers only
+the **two most recent versions of each series** in its picker, so the list does
+not grow a row on every rebuild. Versions are compared numerically (`2026.9.19`
+sorts before `2026.10.1`, not after), and two architectures of the same version
+count as one version.
+
+A superseded version disappears from the picker but is not withdrawn: it is
+still installable by identifier via
+`ish-cli roots install source=catalog id=<identifier>`.
+
+Give each version its own `family` as well, so the two offered builds appear as
+two separate rows rather than being folded into one.
