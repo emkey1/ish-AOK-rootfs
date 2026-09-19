@@ -80,5 +80,13 @@ A superseded version disappears from the picker but is not withdrawn: it is
 still installable by identifier via
 `ish-cli roots install source=catalog id=<identifier>`.
 
+**Never delete an archive from `archives/`.** The app bundles a *copy* of
+`manifest.json` at build time, so every iSH-AOK already installed keeps asking
+for whatever URLs its own copy names — deleting a file 404s those installs with
+"Couldn't download the filesystem image", and they cannot be fixed from here.
+Dropping an entry from this file is fine and only affects future app builds;
+the file it pointed at has to stay. If a published build turns out to be
+defective, replace its bytes with a fixed image rather than removing it.
+
 Give each version its own `family` as well, so the two offered builds appear as
 two separate rows rather than being folded into one.
