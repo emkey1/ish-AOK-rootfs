@@ -46,7 +46,7 @@
     "initialWindow": "session-shell",
     "guestABI": "i386",
     "downloadURL": "https://raw.githubusercontent.com/emkey1/ish-AOK-rootfs/main/archives/devuan-minirootfs-6.0-x86.tar.xz",
-    "downloadSize": "~32 MB",
+    "downloadSize": "~33 MB",
     "family": "devuan6",
     "familyDisplayName": "Devuan 6 (excalibur)",
     "tier": "official"
@@ -59,7 +59,7 @@
     "initialWindow": "session-shell",
     "guestABI": "amd64",
     "downloadURL": "https://raw.githubusercontent.com/emkey1/ish-AOK-rootfs/main/archives/devuan-minirootfs-6.0-x86_64.tar.xz",
-    "downloadSize": "~31 MB",
+    "downloadSize": "~32 MB",
     "family": "devuan6",
     "familyDisplayName": "Devuan 6 (excalibur)",
     "tier": "official"
