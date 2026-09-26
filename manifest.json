@@ -78,6 +78,58 @@
     "tier": "official"
   },
   {
+    "identifier": "alpine3242",
+    "displayName": "Alpine 3.24.2 (Experimental)",
+    "archiveName": "alpine-minirootfs-3.24.2-x86",
+    "importName": "Alpine3.24.2",
+    "initialWindow": "session-shell",
+    "guestABI": "i386",
+    "downloadURL": "https://raw.githubusercontent.com/emkey1/ish-AOK-rootfs/main/archives/alpine-minirootfs-3.24.2-x86.tar.xz",
+    "downloadSize": "~3 MB",
+    "family": "alpine3242",
+    "familyDisplayName": "Alpine 3.24.2",
+    "tier": "community"
+  },
+  {
+    "identifier": "alpine3242x8664",
+    "displayName": "Alpine 3.24.2 (x86_64) (Experimental)",
+    "archiveName": "alpine-minirootfs-3.24.2-x86_64",
+    "importName": "Alpine3.24.2-x86_64",
+    "initialWindow": "session-shell",
+    "guestABI": "amd64",
+    "downloadURL": "https://raw.githubusercontent.com/emkey1/ish-AOK-rootfs/main/archives/alpine-minirootfs-3.24.2-x86_64.tar.xz",
+    "downloadSize": "~3 MB",
+    "family": "alpine3242",
+    "familyDisplayName": "Alpine 3.24.2",
+    "tier": "community"
+  },
+  {
+    "identifier": "alpine3242aarch64",
+    "displayName": "Alpine 3.24.2 (aarch64) (Experimental)",
+    "archiveName": "alpine-minirootfs-3.24.2-aarch64",
+    "importName": "Alpine3.24.2-aarch64",
+    "initialWindow": "session-shell",
+    "guestABI": "arm64",
+    "downloadURL": "https://raw.githubusercontent.com/emkey1/ish-AOK-rootfs/main/archives/alpine-minirootfs-3.24.2-aarch64.tar.xz",
+    "downloadSize": "~3 MB",
+    "family": "alpine3242",
+    "familyDisplayName": "Alpine 3.24.2",
+    "tier": "community"
+  },
+  {
+    "identifier": "alpine3242riscv64",
+    "displayName": "Alpine 3.24.2 (riscv64) (Experimental)",
+    "archiveName": "alpine-minirootfs-3.24.2-riscv64",
+    "importName": "Alpine3.24.2-riscv64",
+    "initialWindow": "session-shell",
+    "guestABI": "riscv64",
+    "downloadURL": "https://raw.githubusercontent.com/emkey1/ish-AOK-rootfs/main/archives/alpine-minirootfs-3.24.2-riscv64.tar.xz",
+    "downloadSize": "~3 MB",
+    "family": "alpine3242",
+    "familyDisplayName": "Alpine 3.24.2",
+    "tier": "community"
+  },
+  {
     "identifier": "pscal2026091912aarch64",
     "displayName": "PSCAL + SmallCLUE 2026.09.19.12 (arm64)",
     "archiveName": "pscal-rootfs-2026.09.19.12-aarch64",
