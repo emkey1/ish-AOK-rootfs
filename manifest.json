@@ -245,4 +245,17 @@
     "familyDisplayName": "Arch Linux (Experimental)",
     "tier": "community"
   }
+  {
+    "identifer": "artixlinuxaarch64",
+    "displayName": "Artix Linux OpenRC ARM (aarch64) (Experimental)",
+    "archiveName": "artix-minirootfs-openrc-aarch64",
+    "importName": "ArtixLinux-OpenRC-ARM-aarch64",
+    "initialWindow": "session-shell",
+    "guestABI": "arm64",
+    "downloadUrl": "https://raw.githubusercontent.com/b4ttl3z0id/ish-AOK-rootfs/main/archives/artix-minirootfs-openrc-aarch64.tar.xz",
+    "downloadSize": "~92 MB",
+    "family": "artixlinux",
+    "familyDisplayName": "Artix Linux (Experimental)",
+    "tier": "community"
+}
 ]
