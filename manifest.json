@@ -79,7 +79,7 @@
   },
   {
     "identifier": "alpine3242",
-    "displayName": "Alpine 3.24.2 (Experimental)",
+    "displayName": "Alpine 3.24.2",
     "archiveName": "alpine-minirootfs-3.24.2-x86",
     "importName": "Alpine3.24.2",
     "initialWindow": "session-shell",
@@ -88,11 +88,11 @@
     "downloadSize": "~3 MB",
     "family": "alpine3242",
     "familyDisplayName": "Alpine 3.24.2",
-    "tier": "community"
+    "tier": "official"
   },
   {
     "identifier": "alpine3242x8664",
-    "displayName": "Alpine 3.24.2 (x86_64) (Experimental)",
+    "displayName": "Alpine 3.24.2 (x86_64)",
     "archiveName": "alpine-minirootfs-3.24.2-x86_64",
     "importName": "Alpine3.24.2-x86_64",
     "initialWindow": "session-shell",
@@ -101,11 +101,11 @@
     "downloadSize": "~3 MB",
     "family": "alpine3242",
     "familyDisplayName": "Alpine 3.24.2",
-    "tier": "community"
+    "tier": "official"
   },
   {
     "identifier": "alpine3242aarch64",
-    "displayName": "Alpine 3.24.2 (aarch64) (Experimental)",
+    "displayName": "Alpine 3.24.2 (aarch64)",
     "archiveName": "alpine-minirootfs-3.24.2-aarch64",
     "importName": "Alpine3.24.2-aarch64",
     "initialWindow": "session-shell",
@@ -114,11 +114,11 @@
     "downloadSize": "~3 MB",
     "family": "alpine3242",
     "familyDisplayName": "Alpine 3.24.2",
-    "tier": "community"
+    "tier": "official"
   },
   {
     "identifier": "alpine3242riscv64",
-    "displayName": "Alpine 3.24.2 (riscv64) (Experimental)",
+    "displayName": "Alpine 3.24.2 (riscv64)",
     "archiveName": "alpine-minirootfs-3.24.2-riscv64",
     "importName": "Alpine3.24.2-riscv64",
     "initialWindow": "session-shell",
@@ -127,7 +127,7 @@
     "downloadSize": "~3 MB",
     "family": "alpine3242",
     "familyDisplayName": "Alpine 3.24.2",
-    "tier": "community"
+    "tier": "official"
   },
   {
     "identifier": "pscal2026091912aarch64",
