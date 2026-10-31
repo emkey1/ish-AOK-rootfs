@@ -25,10 +25,10 @@
    "id": "reactos",
    "name": "ReactOS",
    "architecture": "i386",
-   "summary": "ReactOS 0.4.16, installed: a free system that runs Windows programs, on the x86 engine.",
+   "summary": "ReactOS 0.4.16, installed: a free system that runs Windows programs, on the x86 engine. Get Programs, on its desktop, installs 18 open-source programs from their makers' sites.",
    "file": "reactos-0.4.16.zip",
-   "size": 159397718,
-   "sha256": "7108f748c37bf47043b4fe93badc4d59742ab4c81276aa87c289056534a08cad"
+   "size": 159400021,
+   "sha256": "607137c26c726e0cd04c8d5a7217b4a4c7bbb5a0e00c7346a7693ef4d8dba911"
   },
   {
    "id": "kolibrios",
@@ -38,6 +38,15 @@
    "file": "kolibrios-0.7.7.0-8930.zip",
    "size": 1337493,
    "sha256": "d17e64eb49d06d3c9d5ec6067d84e30759ccfece1e103d397e788e7a76724c38"
+  },
+  {
+   "id": "kolibrios-extras",
+   "name": "KolibriOS with Extras",
+   "architecture": "x86_64",
+   "summary": "KolibriOS 0.7.7 with its CD of extras: Doom, Quake, Tyrian, DOSBox, ScummVM, NES, SNES and Game Boy emulators, Free Pascal, Tiny C, Lua, a web browser, a PDF reader and more.",
+   "file": "kolibrios-extras-0.7.7.0-8930.zip",
+   "size": 49835753,
+   "sha256": "e1bd2ef8e35a5b5c6262ba4cf12774e3b5caf225e9a5afef9ecbb3e062d13d06"
   },
   {
    "id": "freedos",
