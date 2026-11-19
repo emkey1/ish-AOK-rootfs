@@ -7,7 +7,7 @@
    "id": "alpine-aarch64",
    "name": "Alpine 3.24.2 (aarch64)",
    "architecture": "aarch64",
-   "summary": "iSH-AOK's Alpine root on a machine of its own: busybox, apk, a terminal.",
+   "summary": "AOK-iSH's Alpine root on a machine of its own: busybox, apk, a terminal.",
    "file": "alpine-3.24.2-aarch64.zip",
    "size": 43244884,
    "sha256": "3fddfab787db95a109bbe9a3be4186d06ef5c6b70e661dd6ba77136b0a761e77"
@@ -16,7 +16,7 @@
    "id": "devuan-aarch64",
    "name": "Devuan 6 (aarch64)",
    "architecture": "aarch64",
-   "summary": "iSH-AOK's Devuan root on a machine of its own: sysvinit, apt, a terminal.",
+   "summary": "AOK-iSH's Devuan root on a machine of its own: sysvinit, apt, a terminal.",
    "file": "devuan-6-aarch64.zip",
    "size": 98413909,
    "sha256": "b79dd18af2be7e98187f3e6d7b5d0da9a4c385484c8e9404cd0699c7037a6ef6"
@@ -61,7 +61,7 @@
    "id": "alpine-x86_64",
    "name": "Alpine 3.24.2 (x86_64)",
    "architecture": "x86_64",
-   "summary": "iSH-AOK's Alpine root on a machine of its own: busybox, apk, a terminal.",
+   "summary": "AOK-iSH's Alpine root on a machine of its own: busybox, apk, a terminal.",
    "file": "alpine-3.24.2-x86_64.zip",
    "size": 51587087,
    "sha256": "b89188ae5cca701b9ced139bcbc3f9cf83fb878379d3c6ca95681dcde4955b7e"
@@ -70,7 +70,7 @@
    "id": "alpine-x86",
    "name": "Alpine 3.24.2 (x86)",
    "architecture": "i386",
-   "summary": "iSH-AOK's Alpine root on a machine of its own: busybox, apk, a terminal.",
+   "summary": "AOK-iSH's Alpine root on a machine of its own: busybox, apk, a terminal.",
    "file": "alpine-3.24.2-x86.zip",
    "size": 32933230,
    "sha256": "b9113a8f5d7940d137d1121c74d02b9fae7047a374700262493564bd5fcd499c"
@@ -79,7 +79,7 @@
    "id": "alpine-riscv64",
    "name": "Alpine 3.24.2 (riscv64)",
    "architecture": "riscv64",
-   "summary": "iSH-AOK's Alpine root on a machine of its own: busybox, apk, a terminal.",
+   "summary": "AOK-iSH's Alpine root on a machine of its own: busybox, apk, a terminal.",
    "file": "alpine-3.24.2-riscv64.zip",
    "size": 27993460,
    "sha256": "206bc8444ad92e24e6707a654ccff70efec20d4cc3f0d6d5d7dc82ea1c52b923"
@@ -88,7 +88,7 @@
    "id": "devuan-x86_64",
    "name": "Devuan 6 (x86_64)",
    "architecture": "x86_64",
-   "summary": "iSH-AOK's Devuan root on a machine of its own: sysvinit, apt, a terminal.",
+   "summary": "AOK-iSH's Devuan root on a machine of its own: sysvinit, apt, a terminal.",
    "file": "devuan-6-x86_64.zip",
    "size": 108165459,
    "sha256": "e69f60513375f7ba123b6ed0220536b242275356fee6a734418a0136e201127c"
@@ -97,7 +97,7 @@
    "id": "devuan-x86",
    "name": "Devuan 6 (x86)",
    "architecture": "i386",
-   "summary": "iSH-AOK's Devuan root on a machine of its own: sysvinit, apt, a terminal.",
+   "summary": "AOK-iSH's Devuan root on a machine of its own: sysvinit, apt, a terminal.",
    "file": "devuan-6-x86.zip",
    "size": 90617877,
    "sha256": "d42c14fdbc2407332179cdc9ef562a9a9eab28ab0e646a70173c200b580d2425"
@@ -106,7 +106,7 @@
    "id": "devuan-riscv64",
    "name": "Devuan 6 (riscv64)",
    "architecture": "riscv64",
-   "summary": "iSH-AOK's Devuan root on a machine of its own: sysvinit, apt, a terminal.",
+   "summary": "AOK-iSH's Devuan root on a machine of its own: sysvinit, apt, a terminal.",
    "file": "devuan-6-riscv64.zip",
    "size": 82657879,
    "sha256": "537430ed0cd3f143b3693f942401adf043991c3cb7de44f8f1b109abee446d4c"
