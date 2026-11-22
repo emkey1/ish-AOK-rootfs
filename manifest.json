@@ -156,6 +156,21 @@
     "tier": "community"
   },
   {
+    "identifier": "pscal20261122aarch64",
+    "displayName": "PSCAL + SmallCLUE 2026.11.22 (arm64)",
+    "archiveName": "pscal-rootfs-2026.11.22-aarch64",
+    "importName": "PSCAL-2026.11.22-arm64",
+    "initialWindow": "session-shell",
+    "guestABI": "arm64",
+    "downloadURL": "https://raw.githubusercontent.com/emkey1/ish-AOK-rootfs/main/archives/pscal-rootfs-2026.11.22-aarch64.tar.xz",
+    "downloadSize": "~13 MB",
+    "family": "pscal20261122",
+    "familyDisplayName": "PSCAL + SmallCLUE 2026.11.22",
+    "series": "pscal",
+    "version": "2026.11.22",
+    "tier": "community"
+  },
+  {
     "identifier": "pscal2026112101aarch64",
     "displayName": "PSCAL + SmallCLUE 2026.11.21.1 (arm64)",
     "archiveName": "pscal-rootfs-2026.11.21.1-aarch64",
